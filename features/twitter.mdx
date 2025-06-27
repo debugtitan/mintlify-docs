@@ -1,0 +1,93 @@
+---
+title: Twitter Agent
+description:
+  Discover, track, and monitor Twitter trends, users, and
+  communities with Anchor AI.
+---
+
+
+
+## 🧠 What It Does
+
+The Twitter Agent specializes in:
+
+- Monitoring behavior and activity of public Twitter
+  accounts
+- Tracking who follows which crypto/web3 projects
+- Fetching global or regional Twitter trends
+- Exploring Twitter communities (members, moderators,
+  metadata)
+- Searching for account info using a Twitter handle
+
+This tool is especially useful for researchers, community
+managers, traders, and growth teams wanting to stay ahead of
+online sentiment and social signals.
+
+---
+
+## 🔧 How It Works
+
+---
+
+### 1. **Core Capabilities**
+
+| Function                                                      | Description                                                     |
+| ------------------------------------------------------------- | --------------------------------------------------------------- |
+| `monitor_user_follows_project(username: str)`                 | Tracks when a public user starts following new Twitter projects |
+| `search_twitter_user(username: str)`                          | Retrieves profile data for a given public Twitter user          |
+| `search_twitter_trends(country: Optional[str] = "worldwide")` | Returns trending topics in a given country or worldwide         |
+| `get_twitter_community_info(community_id: str)`               | Fetches high-level details about a Twitter community            |
+| `get_twitter_community_members(community_id: str)`            | Lists the members of a Twitter community                        |
+| `get_twitter_community_moderators(community_id: str)`         | Returns the moderators of a Twitter community                   |
+
+---
+
+## 🛡️ Input Rules
+
+To ensure reliability and correctness:
+
+- **Usernames**: Must be public accounts (e.g., `@elonmusk`
+  → `elonmusk`)
+- **Country**: Must be a valid name like `Japan`, `USA`, or
+  `worldwide`
+- **Community ID**: Must be a valid numerical identifier for
+  a Twitter community
+
+If any input is missing or invalid, the agent will ask
+clarifying questions rather than guessing.
+
+---
+
+## ✨ Example Use Cases
+
+You can interact with the Twitter Agent using natural
+prompts like:
+
+- **“Track if @elonmusk follows any new projects.”**  
+  → Tracks new follows by Elon Musk
+
+- **“What’s trending in Japan?”**  
+  → Lists the top Twitter trends in Japan
+
+- **“Search @jack on Twitter.”**  
+  → Retrieves and summarizes public data about Jack's
+  profile
+
+- **“Who are the mods of community 123456?”**  
+  → Shows the moderators of a given Twitter community
+
+---
+
+## ✅ Best Practices
+
+- Use simple and direct language.
+- Avoid abbreviations for countries or user handles.
+- Let the agent guide you when inputs are unclear.
+- Expect responses in clean, user-friendly summaries — no
+  raw data dumps.
+
+---
+
+Let me know if you'd like to include visual diagrams or tool
+call logs to illustrate how requests are processed
+internally.

@@ -1,0 +1,68 @@
+---
+title: Send Tokens
+description: Automate token transfers using Anchor AI.
+---
+
+Anchor AI allows you to **automate secure token transfers**
+from your wallets to any valid address, ENS domain, or
+user-defined destination.
+
+Whether you're sending funds to another wallet, a friend, or
+a platform address, Anchor ensures the process is smooth,
+accurate, and efficient.
+
+---
+
+### 🚀 How It Works
+
+#### 1. **Wallet Detection**
+
+Before initiating a token transfer, Anchor checks if you
+have any wallets linked to your account.
+
+- If one or more wallets exist, the agent will prompt you to
+  **choose which wallet** to use for the transaction.
+- If no wallets are found, you can ask the agent to **create
+  a new wallet**, which will then be added to your available
+  wallets.
+
+This ensures that transfers are performed from a secure and
+verified wallet under your control.
+
+#### 2. **Wallet Funding**
+
+Your selected wallet must contain the tokens you intend to
+transfer, along with **a small amount of the native token**
+(e.g., ETH, BNB, etc.) to cover gas fees.
+
+- If the wallet doesn’t have enough balance, the agent will
+  notify you and offer helpful suggestions such as:
+  - Funding the wallet manually.
+  - Swapping other tokens within the wallet to cover the
+    required amount.
+  - Bridging funds from another network if needed.
+
+#### 3. **Token Resolution**
+
+Anchor intelligently resolves token addresses. If the token
+you specify exists in multiple versions (e.g., fake or
+duplicate tokens), Anchor will:
+
+- Match the symbol with the verified contract address.
+- Ask for your confirmation if there are ambiguities.
+- Ensure the correct token is being transferred.
+
+---
+
+### ✏️ Example Prompts
+
+Here are some sample commands you can give to Anchor:
+
+> “Send 0.5 ETH to vitalik.eth”  
+> “Transfer 2000 ARAI to anchor.swap”  
+> “Send 100 USDT to 0x3fa...b92”
+
+Anchor will parse your intent, validate the destination,
+check balances, and complete the transfer securely.
+
+---

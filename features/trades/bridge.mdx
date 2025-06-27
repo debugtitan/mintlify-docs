@@ -1,0 +1,86 @@
+---
+title: Asset Bridge
+description:
+  Automate cross-chain token bridging with Anchor AI.
+---
+
+Anchor AI enables you to bridge assets seamlessly across
+different blockchains through a simple and intuitive
+interface. It abstracts away the technical complexity and
+provides a smooth user experience powered by intelligent
+automation.
+
+### 1. **Wallet Detection**
+
+Before initiating a bridge transaction, Anchor checks if you
+have any wallets linked to your account.
+
+- If one or more wallets are found, the agent will prompt
+  you to **select the preferred wallet** for the
+  transaction.
+- If no wallets are detected, you can **ask the agent to
+  create a new wallet** for you. The new wallet will be
+  generated and added to your list of available wallets.
+
+This ensures all bridging transactions are performed from a
+verified and secure wallet that belongs to you.
+
+### 2. **Wallet Funding**
+
+Once a wallet is selected, Anchor verifies that it has
+sufficient funds to perform the bridge, including:
+
+- The **amount of the token** you want to bridge.
+- The **required gas fees** on the source chain.
+
+If the wallet lacks sufficient balance, the agent will
+notify you and provide options such as:
+
+- Adding funds manually.
+- Swapping from another token you already hold.
+- Transferring from another wallet.
+
+💡 **Tip**: Ensure your wallet holds a small amount of the
+native token (e.g., ETH or BNB) to cover transaction and
+bridging fees.
+
+### 3. **Bridge Execution**
+
+Once everything is in place, you can initiate a bridge by
+messaging the agent directly. Anchor handles all the backend
+steps like:
+
+- Selecting the appropriate bridge protocol.
+- Verifying token contracts.
+- Confirming cross-chain routes and fees.
+
+If any critical data is missing, the agent will ask you to
+confirm or fill in the blanks.
+
+Anchor also resolves naming conflicts by confirming token
+addresses with you if multiple tokens share the same symbol
+or name.
+
+---
+
+### ✅ Example User Prompts
+
+> "Bridge `0.5` `ETH` from `Ethereum` to `BNB` on `BSC`"  
+> "Bridge 200 `USDT` from Arbitrum to `zkSync`"  
+> "Bridge 1.2 `BNB` from `BSC` to `Ethereum`"
+
+---
+
+### 🌐 Supported Chains
+
+You can currently bridge tokens between the following
+networks:
+
+- **Ethereum Mainnet**
+- **Binance Smart Chain (BSC)**
+- **Arbitrum**
+- **zkSync Era**
+
+More chains will be supported in future updates.
+
+---
