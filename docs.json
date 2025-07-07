@@ -41,6 +41,7 @@
               "features/scan",
               "features/safety",
               "features/send-token",
+              "features/search",
               "features/twitter"
             ]
           }
