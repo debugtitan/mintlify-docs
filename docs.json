@@ -38,6 +38,8 @@
                 ]
               },
               "features/exports",
+              "features/scan",
+              "features/safety",
               "features/send-token",
               "features/twitter"
             ]
